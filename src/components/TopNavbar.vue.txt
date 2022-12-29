@@ -1,0 +1,60 @@
+
+<template>
+    <main id="topnavbar">
+          <h1>Travel</h1>	
+           <nav class="wrapper">
+    <nav class="py-2 fixed-top">
+      <div class="container d-flex flex-wrap">
+        <a><li class="nav-item"><router-link to="/travel" class="nav-link px-2">Travel</router-link></li></a>
+        <ul class="nav me-auto"> <a> <li class="nav-item"><router-link to="/videos" class="nav-link px-2">Videos</router-link></li></a>
+        <a> <li class="nav-item"><router-link to="/home" class="nav-link px-2 active" aria-current="page">Home</router-link></li></a>
+        </ul>
+      </div>
+    </nav>
+    </nav>
+  </main> 
+  </template>
+  
+  <style scoped>
+    .wrapper .fixed-top {
+      position: sticky;
+      z-index: 2100;
+    }
+    .wrapper nav {
+      background-color: rgba(0,0,0,.8);
+    }
+    .wrapper nav a {
+      color: #e1bee7;
+      font-weight: 500;
+    }
+    .wrapper nav a:hover {
+      color: #f0ad4e;
+    }
+    .home, ul{
+      margin: 0;
+       padding: 0;
+      font-family:century;
+      list-style: none;
+      text-align:right;
+      overflow: hidden;
+      background-color:transparent;
+    }
+    .home, li{
+  transition: all .5s ease;
+  padding: 20px;
+  display: inline-flex;
+  font-size: 20px;
+  float: right;  
+  }
+  .li a:hover {
+  background-color: tomato;
+  transition: all .5s ease;
+  font-size: 2.1rem;
+  box-shadow: 0 0 10px rgb(236, 13, 13), 0 0 15px yellow;
+  }
+  a {text-decoration:none;
+          color:rgb(161, 11, 11);
+  }
+  </style>
+  
+  

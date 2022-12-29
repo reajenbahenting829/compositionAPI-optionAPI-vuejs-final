@@ -1,0 +1,10 @@
+@import './base.css';
+
+@media (min-width: 736px) {
+  body {
+    background-image: url(https://thumbor.forbes.com/thumbor/fit-in/1200x0/filters%3Aformat%28jpg%29/https%3A%2F%2Fspecials-images.forbesimg.com%2Fimageserve%2F5f709d82fa4f131fa2114a74%2F0x0.jpg);
+  }
+}
+
+
+
